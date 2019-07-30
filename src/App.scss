@@ -1,0 +1,237 @@
+@import "./sass/media/respons.scss";
+@import "./sass/font/fonts.scss";
+@import "./sass/keyframes/key.scss";
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   background: url(http://hdqwalls.com/wallpapers/galaxy-space-stars-universe-nebula-4k-qw.jpg) 50% 50% / cover no-repeat;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -99999;
+}
+
+
+
+ .head {
+     display: grid;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     justify-content: center;
+     z-index: 10000;
+     @media(max-width: 991px){
+        display: flex;
+        justify-content: space-around;
+    }
+ }
+
+
+ footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    text-align: center;
+    padding-top: 250px;
+    p{
+      color: white;
+      font-size: 20px;
+    }
+}
+
+ ul{
+    font-family: 'Poiret One', cursive;
+     display: flex;
+     justify-content: space-around;
+     font-size: x-large;
+     font-weight: bold;
+       
+    } 
+    
+    
+
+    h1,h2{
+       
+        font-family: 'Poiret One', cursive;
+    }
+ 
+
+ a{
+     text-decoration: none;
+     color: white;
+     &:hover{
+         text-decoration: none;
+         
+     }
+ }
+
+
+
+ li{
+     padding: 0 30px;
+     list-style: none;
+     color: rgb(255, 255, 255);
+     position: relative;
+     &:after{
+        content: '';
+        display: block;
+          margin: auto;
+          height: 2px;
+          width: 0px;
+          transition: width .5s ease, background-color .5s ease;
+      }
+      
+      &:hover:after {
+          width: 100%;
+          background: white;
+      }
+
+      @media(max-width: 991px){
+        &:hover:after {
+            width: 10%;
+            background: white;
+        }
+      }
+      
+ }
+
+ .logo{
+     text-align: center;
+ }
+
+ .navig{
+    display: none;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    @media(min-width: 991px){
+        display: flex;
+    }
+}
+
+ .pre-info{
+     letter-spacing: 5px;
+     margin: 0;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     padding-top: 100px;
+ }
+
+ .space{
+    padding: 1em 3em;
+    border: 3px solid white;
+    position: relative;
+    top: 120px;
+    transition: all 300ms ease ;
+    box-shadow: 0px 4px 10px 2px rgba(black, 0.2);
+    &:before{
+      position: absolute;
+      content: '';
+      width: 0%; height: 0%;
+      background: white;
+      top: 50%; left: 50%;
+      z-index: -1;
+      transition: all 500ms ease;
+    }
+    
+    &:hover{
+      color: black; 
+      box-shadow:none;
+      
+      &:before{
+        position: absolute;
+        content: '';
+        width: 100%; height: 100%;
+        background: white;
+        top: 0; left: 0%;
+        z-index: -1;
+        transition: all 300ms ease;
+      }
+    }
+  }
+
+
+
+
+  .burger{
+    display: block;
+    @media(min-width: 991px){
+        display: none;
+    }
+}
+
+.trigger {
+    position: relative;
+    display: block;
+    margin: 3px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 40;
+}
+
+.trigger i {
+    display: block;
+    width: 30px;
+    width: 30px;
+    height: 4px;
+    margin: 4px auto;
+    background-color: black; 
+}
+
+.menu-trigger {
+    margin-right: 70px;
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 50px;
+    height: 44px;
+    z-index: 50;
+    span {
+        background-color: white;
+    }
+}
+
+.menu-trigger,
+.menu-trigger span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+}
+
+
+.menu-trigger span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+}
+
+#content{
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 256px;
+    z-index: 30;
+    text-align: center;
+    &.show{
+        margin: 0;
+      animation: burger-animation 0.5s linear;
+       display: flex;
+       background-color: rgba(0, 0, 0, 0.911);
+    }
+}
+  
+ 
