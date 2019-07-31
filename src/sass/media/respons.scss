@@ -1,3 +1,45 @@
-@media(max-width: 400px){
-  
+@media(max-width: 375px){
+    h2{
+        font-size: 1.2rem;
+    }
 }
+
+@media(max-width: 414px){
+    h1{
+        font-size: 1.4rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 320px){
+    h1{
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1024px){
+  
+       body{
+           transition: 2s;
+            background: url(http://www.aljanh.net/data/archive/img/2704814916.png) 50% 50% / cover no-repeat !important;
+           background-attachment: fixed !important;
+           background-position: center center !important;
+          
+       }
+    }
+
+    @media(min-width: 1024px){
+        body{
+            transition: 2s;
+        }
+    }
+  
+   
+
+

@@ -7,12 +7,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
    background: url(http://hdqwalls.com/wallpapers/galaxy-space-stars-universe-nebula-4k-qw.jpg) 50% 50% / cover no-repeat;
+   background-attachment: fixed;
     position: relative;
     overflow-x: hidden;
     height: 100%;
     width: 100%;
     z-index: -99999;
 }
+
+
 
 
 
@@ -102,6 +105,11 @@ body {
 
  .logo{
      text-align: center;
+     
+ }
+
+ .logotype{
+     height: 110px;
  }
 
  .navig{

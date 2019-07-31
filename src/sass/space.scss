@@ -1,0 +1,36 @@
+.space-body{
+    background: url(https://kabbalahmetaphysics137.com/wp-content/uploads/2015/05/galaxy-starry-night.jpg) 50% 50% / cover no-repeat;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -99999;
+    background-attachment: fixed;
+}
+
+
+.container{
+    margin-top: 100px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-family: 'Boogaloo', cursive;
+   
+
+}
+
+.item{
+    transition: 2s;
+    &:hover {
+        
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+}
+
+h1{
+    color: white;
+}
+

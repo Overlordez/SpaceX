@@ -15,16 +15,18 @@ export class Nav extends React.Component{
             <header className="head">
                 <a href="/">
                 <div className="logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/UNESCO_logo_white.png/744px-UNESCO_logo_white.png" height="150" alt="..." /> 
+                <img className="logotype" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/UNESCO_logo_white.png/744px-UNESCO_logo_white.png" alt="..." /> 
                 </div>
                 </a>
 
                 <div className="navig">
                 <ul id="menu">
+                   <Link to="/space"><li>Space</li> </Link>
                    <Link to="/planets"><li>Planets</li> </Link> 
                    <Link to="/galaxy"><li>Galaxy</li> </Link> 
                    <Link to="/aboutus"><li>About us</li> </Link> 
-                   <Link to="/"><li>Project</li> </Link> 
+                   <Link to="/project"><li>Project</li> </Link> 
+                  
                 </ul>
                 </div>
 
@@ -41,10 +43,12 @@ export class Nav extends React.Component{
                                 </a>
                             </div>
                             {this.state.burgerOpen ? <ul id="content" className="show">
-                                <li onClick={() => this.toggleMenu()} > <Link to="/">Planets</Link></li>
-                                <li onClick={() => this.toggleMenu()}> <Link to="/"> Galaxy </Link></li>
-                                <li onClick={() => this.toggleMenu()}> <Link to="/">About us</Link></li>
-                                <li onClick={() => this.toggleMenu()}> <Link to="/">Project</Link></li>
+                                <li onClick={() => this.toggleMenu()}> <Link to="/space">Space</Link></li>
+                                <li onClick={() => this.toggleMenu()} > <Link to="/planets">Planets</Link></li>
+                                <li onClick={() => this.toggleMenu()}> <Link to="/galaxy"> Galaxy </Link></li>
+                                <li onClick={() => this.toggleMenu()}> <Link to="/aboutus">About us</Link></li>
+                                <li onClick={() => this.toggleMenu()}> <Link to="/project">Project</Link></li>
+                               
                             </ul> : ''}
                         </div>
                     </div>
