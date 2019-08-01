@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../sass/space.scss';
 import Footer from './Footer';
 import {Link} from 'react-router-dom';
-import Star from './secondComponent/Star';
 
 
 
@@ -14,9 +13,6 @@ class Space extends React.Component {
 
     componentDidMount() {
         document.body.classList.add("space-body")
-    }
-    useEffect() {
-        document.body.classList.remove("space-body")
     }
 
 

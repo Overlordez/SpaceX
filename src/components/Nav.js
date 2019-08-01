@@ -22,8 +22,6 @@ export class Nav extends React.Component{
                 <div className="navig">
                 <ul id="menu">
                    <Link to="/space"><li>Space</li> </Link>
-                   <Link to="/planets"><li>Planets</li> </Link> 
-                   <Link to="/galaxy"><li>Galaxy</li> </Link> 
                    <Link to="/aboutus"><li>About us</li> </Link> 
                    <Link to="/project"><li>Project</li> </Link> 
                   
@@ -44,8 +42,6 @@ export class Nav extends React.Component{
                             </div>
                             {this.state.burgerOpen ? <ul id="content" className="show">
                                 <li onClick={() => this.toggleMenu()}> <Link to="/space">Space</Link></li>
-                                <li onClick={() => this.toggleMenu()} > <Link to="/planets">Planets</Link></li>
-                                <li onClick={() => this.toggleMenu()}> <Link to="/galaxy"> Galaxy </Link></li>
                                 <li onClick={() => this.toggleMenu()}> <Link to="/aboutus">About us</Link></li>
                                 <li onClick={() => this.toggleMenu()}> <Link to="/project">Project</Link></li>
                                

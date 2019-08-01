@@ -21,16 +21,20 @@
 }
 
 .item{
-    transition: 2s;
+    transition: 1s;
     &:hover {
         
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
       }
 }
 
 h1{
     color: white;
+}
+
+.item{
+    display: inline-block;
 }
 
