@@ -1,45 +1,72 @@
-@media(max-width: 375px){
-    h2{
+@media(max-width: 375px) {
+ 
+    
+    h2 {
         font-size: 1.2rem;
+    }
+
+    .image-item {
+        height: 340px;
+    }
+
+    .logotype {
+        height: 100px
+    }
+ 
+}
+
+@media(max-width: 360px) {
+    .image-item {
+        height: 270px
+    }
+
+   
+}
+
+
+
+@media(max-width: 320px) {
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .image-item {
+
+        height: 220px
     }
 }
 
-@media(max-width: 414px){
-    h1{
+@media(max-width: 1024px) {
+
+    body {
+        transition: 2s;
+        background: url(https://www.setaswall.com/wp-content/uploads/2017/03/Outer-Space-Stars-Galaxies-Frozen-Wallpaper-1920x1200.jpg) 50% 50% / cover no-repeat !important;
+        background-attachment: fixed !important;
+        background-position: center center !important;
+
+    }
+}
+
+@media(min-width: 1024px) {
+    body {
+        transition: 2s;
+    }
+}
+
+@media(max-width: 414px) {
+    h1 {
         font-size: 1.4rem;
     }
 
-    h2{
+    h2 {
         font-size: 1.3rem;
     }
-}
 
-@media(max-width: 320px){
-    h1{
-        font-size: 1.1rem;
-    }
-    h2{
-        font-size: 1rem;
+    .image-item {
+        height: 300px
     }
 }
-
-@media(max-width: 1024px){
-  
-       body{
-           transition: 2s;
-            background: url(http://www.aljanh.net/data/archive/img/2704814916.png) 50% 50% / cover no-repeat !important;
-           background-attachment: fixed !important;
-           background-position: center center !important;
-          
-       }
-    }
-
-    @media(min-width: 1024px){
-        body{
-            transition: 2s;
-        }
-    }
-  
-   
-
-

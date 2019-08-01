@@ -15,6 +15,7 @@ import Nebula from './components/secondComponent/Nebula';
 import BlackHole from './components/secondComponent/BlackHole';
 
 
+
  class App extends React.Component {
    constructor(props){
      super();
@@ -28,10 +29,10 @@ import BlackHole from './components/secondComponent/BlackHole';
   return (
     <Router>
       <div>
-       {/* <audio loop autoPlay  >
+        {/* <audio loop autoPlay  >
   <source src="music.mp3" />
 </audio>  */}
-      <Nav/>
+      <Nav/> 
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/space"  component={Space}/>

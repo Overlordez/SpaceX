@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../sass/space.scss';
 import Footer from './Footer';
 import {Link} from 'react-router-dom';
-import Star from './secondComponent/Star';
+
 
 
 
