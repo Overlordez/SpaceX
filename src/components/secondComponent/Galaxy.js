@@ -15,7 +15,7 @@ export class Galaxy extends React.Component{
         
      }
      componentWillUnmount() {
-        document.body.classList.remove('space-body')
+        document.body.classList.remove('galaxy-body')
         console.log('UNMOUNT');
      }
 

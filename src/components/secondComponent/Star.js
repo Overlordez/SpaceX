@@ -9,8 +9,8 @@ export class Star extends React.Component{
     }
 
      
-    useEffect() {
-        document.body.classList.remove('space-body')
+    componentWillUnmount() {
+        document.body.classList.remove('star-body')
     }
 
 

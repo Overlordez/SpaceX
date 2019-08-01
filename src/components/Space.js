@@ -15,7 +15,7 @@ class Space extends React.Component {
     componentDidMount() {
         document.body.classList.add("space-body")
     }
-    useEffect() {
+    componentWillUnmount() {
         document.body.classList.remove("space-body")
     }
 
