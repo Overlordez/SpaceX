@@ -30,10 +30,10 @@ export class About extends React.Component {
 
                     <div className="helper">
 
-                        <img className="sponsors"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png" height="150" alt="..." />
+                        <img className="sponsors"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png" height="130" alt="..." />
                         <img className="spaceX" src="https://www.logolynx.com/images/logolynx/d2/d2e451c6d3942185db25755e945a8335.png" height="30" alt="..." />
-                        <img className="sponsors" src="https://logodix.com/logo/94036.png" height="140" alt="..." />
-                        <img className="sponsors" src="https://itc.ua/wp-content/uploads/2019/01/1facebook_mobile_experience_1920x1080-10.png" height="140" alt="..." />
+                        <img className="sponsors" src="https://logodix.com/logo/94036.png" height="120" alt="..." />
+                        <img className="sponsors" src="https://itc.ua/wp-content/uploads/2019/01/1facebook_mobile_experience_1920x1080-10.png" height="120" alt="..." />
 
                     </div>
 

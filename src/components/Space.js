@@ -26,7 +26,7 @@ class Space extends React.Component {
                 <div className="contain">
                 <Link to="/galaxy">
                 <div className="item">
-                <img className="image-item" src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2717.png" height="470" alt="..." />
+                <img className="image-item" src="item-image/item-galaxy.png" height="420" alt="..." />
                 <h1> Galaxy </h1>
                 </div>
                 </Link>
@@ -35,7 +35,7 @@ class Space extends React.Component {
            <div className="contain">
            <Link to="/star">
            <div className="item">
-           <img className="image-item" src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2714.png" height="470" alt="..." />
+           <img className="image-item" src="item-image/item-sun.png" height="420" alt="..." />
            <h1>STAR</h1>
            </div>
            </Link>
@@ -44,7 +44,7 @@ class Space extends React.Component {
            <div className="contain">
            <Link to="/planet">
            <div className="item">
-           <img className="image-item" src="https://img.pngio.com/planet-png-hd-transparent-planet-hd-planet-png-2200_2200.png" height="450" alt="..." />
+           <img className="image-item" src="item-image/item-planet.png" height="400" alt="..." />
            <h1>PLANET</h1>
            </div>
            </Link>
@@ -53,7 +53,7 @@ class Space extends React.Component {
            <div className="contain">
            <Link to="/nebula">
            <div className="item">
-           <img className="image-item" src="https://avatanplus.com/files/resources/mid/5682768cb9743151ed9f15d8.png" height="450" alt="..." />
+           <img className="image-item" src="item-image/item-nebula.png" height="400" alt="..." />
            <h1>NEBULA</h1>
            </div>
            </Link>
@@ -62,7 +62,7 @@ class Space extends React.Component {
            <div className="contain">
            <Link to="/blackHole">
            <div className="item">
-           <img className="image-item" src="https://avatanplus.com/files/resources/mid/583f58ef90115158b77367e6.png" height="450" alt="..." />
+           <img className="image-item" src="item-image/item-blackhole.png" height="400" alt="..." />
            <h1>BLACK HOLE</h1>
            </div>
            </Link>

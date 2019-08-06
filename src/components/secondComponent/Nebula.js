@@ -48,7 +48,7 @@ But the nebula can be dark. This view was discovered by William Herschel, imagin
                 <section className="imageStar">
                     <img className="planetImage" src=" https://wallpapersite.com/images/wallpapers/nebula-2560x1600-dark-space-blue-space-deep-hd-1777.jpg" alt="..." />
                     <img className="planetImage" src=" https://s2.best-wallpaper.net/wallpaper/2880x1800/1805/Beautiful-space-galaxy-stars_2880x1800.jpg " alt="..." />
-                    <img className="planetImage" src=" https://oboitut.com/uploads/posts/oboitut.com_10646.jpg " alt="..." />
+                    
                 </section>
 
                  <Footer/>

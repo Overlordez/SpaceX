@@ -25,7 +25,7 @@ export class Star extends React.Component{
                 </section>
 
                 <section className="starInfo">
-                    <img className="image-item" src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2714.png" height="300" alt="..." />
+                    <img className="image-item" src="item-image/item-sun.png" height="300" alt="..." />
                     <p>
 Today, one of the components of our galaxy is the stars. Roasted, large body in which thermonuclear reactions occur, as a result of which, we get heat, light. It is impossible to imagine what we would have been without this celestial body.</p>
 

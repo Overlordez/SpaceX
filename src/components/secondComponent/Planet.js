@@ -27,7 +27,7 @@ export class Planet extends React.Component{
                 </section>
 
                 <section className="planetInfo">
-                    <img className="image-item" src="https://avatanplus.com/files/resources/original/5c0cbeef8285416791c9d7af.png" height="300" alt="..." />
+                    <img className="image-item" src="item-image/item-planet2.png" height="300" alt="..." />
                     <p>
 
                     Planet. A place where, under certain conditions, life can be born and our planet Earth is proof of this. The large spherical body on which life was born.</p>
@@ -42,7 +42,7 @@ A planet is a celestial body orbiting around a star or its remnants, massive eno
                 <section className="imageStar">
                     <img className="planetImage" src="https://i.pinimg.com/originals/f9/0c/05/f90c052b4c2fcf9f9434f0de3c7af2b6.jpg"  alt="..." />
                     <img className="planetImage" src="https://www.wallpaperflare.com/static/667/957/200/space-planet-light-planet-wallpaper.jpg" alt="..." />
-                    <img className="planetImage" src="https://wallimpex.com/data/out/539/universe-4k-wallpaper-9023533.jpg" alt="..." />
+                    
                 </section>
             
      
