@@ -32,9 +32,9 @@ import Project from './components/Project';
   return (
     <Router>
       <div>
-          {/* <audio loop autoPlay  >
+           <audio loop autoPlay  >
   <source src="music.mp3" />
-</audio>    */}
+</audio>    
       <Nav/> 
       <Switch>
         <Route exact path="/" component={Main} />
