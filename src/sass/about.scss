@@ -1,0 +1,89 @@
+.about-body{
+    background: url(https://i.imgur.com/OAFbZbI.jpg) 50% 50% / cover no-repeat;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -99999;
+    background-attachment: fixed;
+    
+}
+
+.wrapper{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding: 30px;
+    @media(max-width: 768px){
+        font-size: 15px;
+    }
+}
+
+.content{
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.74);
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    h1{
+        color: black;
+    }
+
+    p{
+        margin-left: 100px;
+        padding-top: 100px;
+        font-family: 'Jura', sans-serif;
+        border-bottom: 3px solid black;
+        @media(max-width: 768px){
+            font-size: 16px;
+            margin-left: 0;
+            border: none;
+        }
+    }
+}
+
+.sponsors{
+    @media(max-width: 768px){
+        height: 100px;
+    }
+    @media(max-width: 600px){
+        display: none;
+    }
+}
+
+.spaceX{
+    @media(max-width: 600px){
+        display: none;
+    }
+
+}
+
+
+.col-md-6{
+    width: 45%;
+    @media(max-width: 768px){
+        width: 100%;
+        
+    }
+}
+
+.row{
+    display: flex;
+    @media(max-width: 768px){
+        display: block;
+        
+    }
+   
+  
+}
+
+.helper{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}

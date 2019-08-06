@@ -23,7 +23,7 @@ class Space extends React.Component {
     render() {
         return (
             <div>
-                <div className="container">
+                <div className="contain">
                 <Link to="/galaxy">
                 <div className="item">
                 <img className="image-item" src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2717.png" height="470" alt="..." />
@@ -32,7 +32,7 @@ class Space extends React.Component {
                 </Link>
                 </div>
 
-           <div className="container">
+           <div className="contain">
            <Link to="/star">
            <div className="item">
            <img className="image-item" src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2714.png" height="470" alt="..." />
@@ -41,7 +41,7 @@ class Space extends React.Component {
            </Link>
            </div>
 
-           <div className="container">
+           <div className="contain">
            <Link to="/planet">
            <div className="item">
            <img className="image-item" src="https://img.pngio.com/planet-png-hd-transparent-planet-hd-planet-png-2200_2200.png" height="450" alt="..." />
@@ -50,7 +50,7 @@ class Space extends React.Component {
            </Link>
            </div>
 
-           <div className="container">
+           <div className="contain">
            <Link to="/nebula">
            <div className="item">
            <img className="image-item" src="https://avatanplus.com/files/resources/mid/5682768cb9743151ed9f15d8.png" height="450" alt="..." />
@@ -59,7 +59,7 @@ class Space extends React.Component {
            </Link>
            </div>
 
-           <div className="container">
+           <div className="contain">
            <Link to="/blackHole">
            <div className="item">
            <img className="image-item" src="https://avatanplus.com/files/resources/mid/583f58ef90115158b77367e6.png" height="450" alt="..." />

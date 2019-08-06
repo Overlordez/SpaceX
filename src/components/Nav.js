@@ -33,7 +33,7 @@ export class Nav extends React.Component{
                         <div className={this.state.burgerOpen ? 'open' : ''} onClick={() => this.toggleMenu()}>
 
                             <div className="nav">
-                                <a id="trigger" className={this.state.burgerOpen ? 'menu-trigger type7 active' : 'menu-trigger type7'}>
+                                <a id="trigger" className={this.state.burgerOpen ? 'menu-trigger type7 active' : 'menu-trigger type7' } >
                                     <span></span>
                                     <span></span>
                                     <span></span>

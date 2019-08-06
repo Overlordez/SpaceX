@@ -1,0 +1,30 @@
+.project-body{
+    background: url(https://img3.akspic.com/image/21232-atmosphere-cosmos-universe-underwater-outer_space-3840x2160.jpg) 50% 50% / cover no-repeat;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -99999;
+    background-attachment: fixed;
+    
+}
+
+.info{
+    text-align: center;
+}
+
+.thanks{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 50%;  
+}
+
+.hand{
+    @media(max-width: 768px){
+        height: 200px ;
+    }
+    @media(max-width: 411px){
+        height: 140px;
+    }
+}

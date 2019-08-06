@@ -1,5 +1,5 @@
-.star-body{
-    background: url(https://wallpaperplay.com/walls/full/8/c/2/12870.jpg) 50% 50% / cover no-repeat;
+.planet-body{
+    background: url(https://images2.alphacoders.com/101/1018039.jpg) 50% 50% / cover no-repeat;
     position: relative;
     overflow-x: hidden;
     height: 100%;
@@ -8,7 +8,7 @@
     background-attachment: fixed;
 }
 
-.starInfo{
+.planetInfo{
     color: white;
     font-size: 23px;
     display: inline-block;
@@ -18,7 +18,7 @@
         }
 }
 
-.starImage{
+.planetImage{
     height: 555px;
     @media(max-width: 768px ){
         height: 410px ;

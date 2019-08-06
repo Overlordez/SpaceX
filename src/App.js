@@ -13,6 +13,8 @@ import Star from  './components/secondComponent/Star';
 import Planet from './components/secondComponent/Planet';
 import Nebula from './components/secondComponent/Nebula';
 import BlackHole from './components/secondComponent/BlackHole';
+import About from './components/About';
+import Project from './components/Project';
 
 
 
@@ -22,6 +24,7 @@ import BlackHole from './components/secondComponent/BlackHole';
 
    }
 
+
    componentWillUnmount() {
     document.body.classList.remove('body')
 }
@@ -29,13 +32,17 @@ import BlackHole from './components/secondComponent/BlackHole';
   return (
     <Router>
       <div>
-         <audio loop autoPlay  >
+          {/* <audio loop autoPlay  >
   <source src="music.mp3" />
-</audio>  
+</audio>    */}
       <Nav/> 
       <Switch>
         <Route exact path="/" component={Main} />
+        <Route path="/aboutus" component={About}/>
         <Route exact path="/space"  component={Space}/>
+        <Route path="/project" component={Project}/>
+        <Route path="/nebula" component={Nebula}/>
+        <Route path="blackhole" component={BlackHole}/>
         <Route path="/galaxy"  component={Galaxy}/>
         <Route path="/star" component={Star}/>
         <Route path="/planet" component={Planet}/>

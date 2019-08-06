@@ -1,0 +1,19 @@
+.blackhole-body{
+    background: url(http://www.topoboi.com/images/201309/topoboi.com_17969.jpg) 50% 50% / cover no-repeat;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -99999;
+    background-attachment: fixed;
+}
+
+.blackholeInfo{
+    color: white;
+    font-size: 23px;
+    display: inline-block;
+    font-family: 'Boogaloo', cursive;
+    @media(max-width: 375px) {
+            font-size: 15px;
+        }
+}
