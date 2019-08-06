@@ -38,8 +38,8 @@ A black hole is a region of space-time whose gravitational attraction is so grea
                 </section>
     
                 <section className="imageStar">
-                    <img className="planetImage" src=" https://cdn.allwallpaper.in/wallpapers/1920x1080/2726/black-hole-cataclysm-outer-space-planets-stars-1920x1080-wallpaper.jpg" alt="..." />
-                    <img className="planetImage" src=" https://wallpaperplay.com/walls/full/b/9/3/287831.jpg " alt="..." />
+                    <img className="planetImage" src=" /image/blackhole.jpg" alt="..." />
+                    <img className="planetImage" src=" /image/blackhole1.jpg " alt="..." />
                     
                 </section>
 

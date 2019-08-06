@@ -47,8 +47,8 @@ export class Galaxy extends React.Component {
 
 
                 <section className="imageGalaxy">
-                    <img className="galaxyImage1" src="http://hdqwalls.com/wallpapers/spiral-galaxy-space-stars-universe-4k-5i.jpg"  alt="..." />
-                    <img className="galaxyImage" src="http://www.zaynabacademyonline.org/wp-content/uploads/2015/11/images-1.jpg" alt="..." />
+                    <img className="galaxyImage1" src="/image/galaxy.jpg"  alt="..." />
+                    <img className="galaxyImage" src="/image/galaxy1.jpg" alt="..." />
                    
 
                 </section>

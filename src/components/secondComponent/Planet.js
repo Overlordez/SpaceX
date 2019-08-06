@@ -40,8 +40,8 @@ A planet is a celestial body orbiting around a star or its remnants, massive eno
                 </section>
 
                 <section className="imageStar">
-                    <img className="planetImage" src="https://i.pinimg.com/originals/f9/0c/05/f90c052b4c2fcf9f9434f0de3c7af2b6.jpg"  alt="..." />
-                    <img className="planetImage" src="https://www.wallpaperflare.com/static/667/957/200/space-planet-light-planet-wallpaper.jpg" alt="..." />
+                    <img className="planetImage" src="/image/planet.jpg"  alt="..." />
+                    <img className="planetImage" src="/image/planet1.jpg" alt="..." />
                     
                 </section>
             

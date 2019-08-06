@@ -37,8 +37,8 @@ Today, one of the components of our galaxy is the stars. Roasted, large body in 
                 </section>
 
                 <section className="imageStar">
-                    <img className="starImage" src="https://fainaidea.com/wp-content/uploads/2019/07/SolarFull_SeanDoran_2880FullwidthLede-2880x1620.jpg"  alt="..." />
-                    <img className="starImage" src="https://thesuntoday-wpengine.netdna-ssl.com/wp-content/uploads/2014/10/Oct222014-X1_6Flare.001.jpg" alt="..." />
+                    <img className="starImage" src="/image/sun.jpg"  alt="..." />
+                    <img className="starImage" src="/image/sun1.jpg" alt="..." />
                 </section>
             
      
