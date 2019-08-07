@@ -17,10 +17,14 @@
     text-align: center;
     color: white;
     display: inline-block;
-    width: 50%;  
+    width: 50%; 
+  
 }
 
 .hand{
+    animation-name: flipInY;
+    backface-visibility: visible !important;
+    animation-duration: 1.3s; 
     @media(max-width: 768px){
         height: 200px ;
     }

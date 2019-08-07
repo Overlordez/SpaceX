@@ -23,6 +23,8 @@
 
 .content{
     text-align: center;
+    animation-name: fadeInRightBig;
+     animation-duration: 1s;
 }
 
 .container{
@@ -30,6 +32,7 @@
     color: black;
     font-size: x-large;
     text-align: center;
+    
     h1{
         color: black;
     }
@@ -39,10 +42,13 @@
         padding-top: 100px;
         font-family: 'Jura', sans-serif;
         border-bottom: 3px solid black;
+        animation-name: zoomIn;
+     animation-duration: 2s;
         @media(max-width: 768px){
             font-size: 16px;
             margin-left: 0;
             border: none;
+            
         }
     }
 }

@@ -244,7 +244,8 @@ menu-trigger span:nth-of-type(1) {
 
 }
 
-.pulse{
+.pulse
+{
     animation-name: pulse;
     -webkit-animation-name: pulse;  
  
@@ -285,4 +286,99 @@ menu-trigger span:nth-of-type(1) {
     }           
 }
 
+@keyframes toLeft {
+    from {
+      transform-origin: left bottom;
+      transform: rotate3d(0, 0, 1, -45deg);
+      opacity: 0;
+    }
+  
+    to {
+      transform-origin: left bottom;
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
 
+@keyframes fadeInRightBig {
+    from {
+      opacity: 0;
+      transform: translate3d(2000px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes fadeOutLeftBig {
+    from {
+        transform: translate3d(-2000px,0,0);
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0px, 0, 0);
+    }
+  }
+
+  @keyframes hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    
+    to {
+      filter: hue-rotate(-360deg);
+    }
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes flipInY {
+    from {
+      transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+  
+    40% {
+      transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+      animation-timing-function: ease-in;
+    }
+  
+    60% {
+      transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+      opacity: 1;
+    }
+  
+    80% {
+      transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+  
+    to {
+      transform: perspective(400px);
+    }
+  }

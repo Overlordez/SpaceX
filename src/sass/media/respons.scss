@@ -43,7 +43,7 @@
 @media(max-width: 1024px) {
 
     body {
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
@@ -51,7 +51,7 @@
     }
 
     .about-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
@@ -59,57 +59,52 @@
     }
 
     .blackhole-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
 
     .galaxy-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
 
     .nebula-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
     .planet-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
 
     .project-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
     .space-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
     .star-body{
-        transition: 2s;
+       
         background: url(/mobile.jpg) 50% 50% / cover no-repeat !important;
         background-attachment: fixed !important;
         background-position: center center !important;
     }
 }
 
-@media(min-width: 1024px) {
-    body {
-        transition: 2s;
-    }
-}
 
 @media(max-width: 414px) {
     h1 {

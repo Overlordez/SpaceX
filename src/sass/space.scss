@@ -23,6 +23,8 @@
 
 .item{
     transition: 1s;
+    animation-name: fadeOutLeftBig;
+    animation-duration: 2s;
     &:hover {
         
         -webkit-transform: scale(1.15);

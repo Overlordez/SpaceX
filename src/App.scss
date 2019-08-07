@@ -81,8 +81,10 @@ body {
  li{
      padding: 0 30px;
      list-style: none;
-     color: rgb(255, 255, 255);
+     color: white;
      position: relative;
+      animation-name: fadeInRight;
+      animation-duration: 0.8s;
      &:after{
         content: '';
         display: block;
@@ -113,6 +115,8 @@ body {
 
  .logotype{
      height: 110px;
+     animation-name: toLeft;
+     animation-duration: 1s;
  }
 
  .navig{
@@ -134,6 +138,8 @@ body {
      justify-content: center;
      color: white;
      padding-top: 100px;
+     animation-name: fadeInRightBig;
+     animation-duration: 1s;
  }
 
  .space{
